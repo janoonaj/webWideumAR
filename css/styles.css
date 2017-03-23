@@ -16,19 +16,19 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 300;
-  color: #2a2d2c; }
+  color: #7E8784; }
 
 h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #2a2d2c; }
+  color: #7E8784; }
 
 h4 {
   font-size: 18px; }
 
 h5 {
   font-size: 15px;
-  color: #2a2d2c;
+  color: #7E8784;
   text-transform: uppercase;
   font-weight: 500; }
 
@@ -354,14 +354,14 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("../img/wideum2.jpg") center center;
+  background: url("../img/wideblanca.jpg") center center;
   
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
-    color: #fff; }
+    color: #9D9E9B; }
   .hero h1 {
-    color: #fff;
+    color: #9D9E9B;
     margin-bottom: 30px; }
 	.hero h1 span {
     color: #CC3766;
@@ -383,9 +383,10 @@ Hero
 
 .fixed {
   position: fixed;
-  background-color: #2a2d2c;
+  background-color: #E7E7E7;
   z-index: 999;
-  width: 100%; }
+  width: 100%;
+ }
 
 header {
   padding: 50px 0;
@@ -409,7 +410,8 @@ header {
     header ul.primary-nav li {
       display: inline; }
       header ul.primary-nav li a {
-        color: #fff;
+        color: #7E8784; 
+		font-weight: initial;
         padding-right: 25px; }
         header ul.primary-nav li a:hover {
           color: #e93f74; }
@@ -545,7 +547,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #2a2d2c url("../img/wideum1.jpg") no-repeat center center;
+  background: #7E8784 url("../img/wideum1.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -557,12 +559,12 @@ Features-stack
     margin-left: -8px;
     font-style: normal; }
   .hero-strip h2 {
-    color: #fff;
+    color: #9D9E9B;
     margin: 0 0 20px 0; }
   .hero-strip p {
     color: #ACB1B4; }
   .hero-strip .btn {
-    margin-top: 10px; }
+    margin: 20px; }
   .hero-strip .logo-placeholder {
     width: 230px;
     height: 230px;
@@ -640,7 +642,7 @@ Features-stack
   .blog figcaption a.blog-post-title {
     color: rgba(28, 54, 83, 0.6); }
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
-    color: #2a2d2c; }
+    color: #7E8784; }
 
 /* ==========================================================================
 .testimonial-slider
@@ -762,7 +764,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #2a2d2c;
+  background-color: #7E8784;
   position: relative; }
   footer p {
     color: #ACB1B4;
