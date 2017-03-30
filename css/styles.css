@@ -11,7 +11,7 @@ p {
   padding-bottom: 20px; }
 
 h1 {
-  font-size: 60px; }
+  font-size: 40px; }
 
 h2 {
   font-size: 40px;
@@ -383,7 +383,7 @@ Hero
 
 .fixed {
   position: fixed;
-  background-color: #E7E7E7;
+  background-color: rgba(219,225,223, 0.95);
   z-index: 999;
   width: 100%;
  }
@@ -411,7 +411,7 @@ header {
       display: inline; }
       header ul.primary-nav li a {
         color: #7E8784; 
-		font-weight: initial;
+		font-weight:600 ;
         padding-right: 25px; }
         header ul.primary-nav li a:hover {
           color: #e93f74; }
@@ -559,12 +559,17 @@ Features-stack
     margin-left: -8px;
     font-style: normal; }
   .hero-strip h2 {
-    color: #9D9E9B;
+    color: #333333;
+	font-weight:700;
     margin: 0 0 20px 0; }
   .hero-strip p {
-    color: #ACB1B4; }
+    color: #333333;
+	font-weight:700; }
   .hero-strip .btn {
     margin: 20px; }
+	.logo img {
+    padding-bottom: 10px;
+}
   .hero-strip .logo-placeholder {
     width: 230px;
     height: 230px;
@@ -804,7 +809,6 @@ footer {
       text-transform: uppercase;
       padding-bottom: 10px; }
     footer .social-share a.twitter-share {
-      height: 60px;
       width: 60px;
       background-color: #1AB4EF;
       border-radius: 3px;
@@ -817,7 +821,6 @@ footer {
     footer .social-share a.facebook-share:hover, footer .social-share a.facebook-share:focus {
       background-color: #324C85; }
     footer .social-share a.facebook-share {
-      height: 60px;
       width: 60px;
       background-color: #3B5898;
       border-radius: 3px;
