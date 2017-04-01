@@ -535,16 +535,13 @@ Features-stack
     margin-top: 20px; }
   .features-extra .vucix-wrap {
     position: absolute;
-	width: 706px;
-    height: 1200px;
+	width: 916px;
+    height: 540px;
     background: url("../img/vucix.png") no-repeat center center;
     top: 114px;
     z-index: 4;
     left: 50%;}
-  .features-extra .vucix-showcase {
-    position: absolute;
-    bottom: -365px;
-    left: 0%; }
+
 
 /* ==========================================================================
 .hero-strip
