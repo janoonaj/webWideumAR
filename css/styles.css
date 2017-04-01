@@ -376,11 +376,11 @@ Hero
   .hero .hero-content {
     padding-top: 26%; }
 	
-	@media screen and (max-width: 370px) {
+	@media screen and (max-width: 700px) {
   
 	.hero {
 			min-height: 655px;
-		  background: url("../img/wideblanca_res.jpg") center right;
+		  background: url("../img/wideblanca_res.jpg") center center;
 		}
 	}
 
