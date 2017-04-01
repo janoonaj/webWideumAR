@@ -371,10 +371,12 @@ Hero
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 80px; }
+    span{
+    color: #CC3766;}
   .hero .hero-content {
     padding-top: 26%; }
 	
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 370px) {
   
 	.hero {
 			min-height: 655px;
@@ -535,13 +537,29 @@ Features-stack
     margin-top: 20px; }
   .features-extra .vucix-wrap {
     position: absolute;
-	width: 916px;
-    height: 540px;
+	width: 883px;
+	height: 670px;
     background: url("../img/vucix.png") no-repeat center center;
     top: 114px;
     z-index: 4;
     left: 50%;}
-
+@media screen and (max-width: 990px) {
+  
+	.features-extra .vucix-wrap {
+		display: none;
+		}
+	}
+	
+	@media screen and (max-width: 990px) {
+  
+	.features-extra .vucix-wrap {
+		 width: 652px;
+		 height: 670px;
+		 left: 50%;
+		}
+	}
+	
+	
 
 /* ==========================================================================
 .hero-strip
