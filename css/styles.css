@@ -354,7 +354,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("../img/wideblanca.jpg") center center;
+  background: url("../img/wideblanca.jpg") center right;
   
   background-size: cover;
   position: relative; }
@@ -373,6 +373,14 @@ Hero
     margin-bottom: 80px; }
   .hero .hero-content {
     padding-top: 26%; }
+	
+	@media screen and (max-width: 700px) {
+  
+	.hero {
+			min-height: 655px;
+		  background: url("../img/wideblanca_res.jpg") center right;
+		}
+	}
 
 .navigation {
   -webkit-transition: all 300ms ease-in-out;
@@ -501,19 +509,11 @@ Features-stack
   .features ul.features-stack li:last-child {
     padding-bottom: 0px;
     border-bottom: none; }
-  .features .ipad-wrap {
+  .features .epson-wrap {
     width: 706px;
     height: 1200px;
-    background: url("../img/ipad-device.png") no-repeat center center;
+    background: url("../img/epson.png") no-repeat center center;
     z-index: 1; }
-  .features .iphone-wrap {
-    width: 304px;
-    height: 620px;
-    background: url("../img/iphone6.png") no-repeat center center;
-    position: absolute;
-    left: 530px;
-    bottom: 129px;
-    z-index: 2; }
   .features .device-showcase {
     position: absolute;
     bottom: -365px;
@@ -535,12 +535,16 @@ Features-stack
     margin-top: 20px; }
   .features-extra .vucix-wrap {
     position: absolute;
-    width: 916px;
-    height: 540px;
+	width: 706px;
+    height: 1200px;
     background: url("../img/vucix.png") no-repeat center center;
     top: 114px;
     z-index: 4;
-    left: 50%; }
+    left: 50%;}
+  .features-extra .vucix-showcase {
+    position: absolute;
+    bottom: -365px;
+    left: 0%; }
 
 /* ==========================================================================
 .hero-strip
